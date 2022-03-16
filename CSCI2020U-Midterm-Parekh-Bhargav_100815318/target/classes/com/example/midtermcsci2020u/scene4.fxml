@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="395.0" prefWidth="355.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermcsci2020u.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="356.0" prefWidth="366.0">
+         <children>
+            <Button layoutX="90.0" layoutY="333.0" mnemonicParsing="false" onAction="#SwithcScene" prefHeight="38.0" prefWidth="136.0" style="-fx-background-color: darkred;" text="Main Menu" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Line endX="-99.9999771118164" endY="112.80001831054688" layoutX="124.0" layoutY="37.0" startX="-100.0" />
+            <CubicCurve controlX1="-26.800018310546875" controlX2="-26.800018310546875" controlY1="-47.70709228515625" controlY2="66.50714111328125" endX="-141.29286193847656" endY="66.50714111328125" fill="#d78a32" layoutX="166.0" layoutY="86.0" startX="-141.29286193847656" startY="-47.70709228515625" stroke="BLACK" />
+            <CubicCurve controlX1="-26.800018310546875" controlX2="-26.800018310546875" controlY1="-47.70709228515625" controlY2="66.50714111328125" endX="-141.29286193847656" endY="66.50714111328125" fill="#d78a32" layoutX="164.0" layoutY="199.0" startX="-141.29286193847656" startY="-47.70709228515625" stroke="BLACK" />
+            <Line endX="-99.9999771118164" endY="112.80001831054688" layoutX="123.0" layoutY="155.0" startX="-100.0" />
+            <CubicCurve controlX1="-26.800018310546875" controlX2="-26.800018310546875" controlY1="-47.70709228515625" controlY2="66.50714111328125" endX="-141.29286193847656" endY="66.50714111328125" fill="DODGERBLUE" layoutX="334.0" layoutY="82.0" startX="-141.29286193847656" startY="-47.70709228515625" stroke="BLACK" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="238.0" layoutX="173.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="21.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="294.0" prefHeight="18.0" prefWidth="74.0" style="-fx-background-color: lightgreen;" text="BP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
